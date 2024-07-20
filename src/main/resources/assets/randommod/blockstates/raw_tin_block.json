@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "randommod:block/tin_ore"
+      "model": "randommod:block/raw_tin_block"
     }
   }
 }

@@ -1,6 +1,10 @@
 package net.alin.randommod;
 
 import com.mojang.logging.LogUtils;
+import net.alin.randommod.block.ModBlocks;
+import net.alin.randommod.item.ModCreativeModTabs;
+import net.alin.randommod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -24,6 +28,12 @@ public class RandomMod {
     public RandomMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -36,6 +46,15 @@ public class RandomMod {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.TIN_INGOT);
+            event.accept(ModItems.RAW_TIN);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.TIN_BLOCK);
+            event.accept(ModBlocks.TIN_ORE);
+            event.accept(ModBlocks.RAW_TIN_BLOCK);
+        }
 
     }
 

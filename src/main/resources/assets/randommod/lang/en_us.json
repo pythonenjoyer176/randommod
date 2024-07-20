@@ -1,0 +1,10 @@
+{
+  "item.randommod.tin_ingot": "Tin Ingot",
+  "item.randommod.raw_tin": "Raw Tin",
+
+  "block.randommod.tin_block": "Tin Block",
+  "block.randommod.raw_tin_block": "Raw Tin Block",
+  "block.randommod.tin_ore": "Tin Ore",
+
+  "creativetab.random_tab": "RandomMod Tab"
+}

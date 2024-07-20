@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "randommod:tin_block"
+          "name": "randommod:raw_tin_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "randommod:blocks/tin_block"
+  "random_sequence": "randommod:blocks/raw_tin_block"
 }

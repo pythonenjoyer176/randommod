@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "randommod:tin_ingot"
+      "item": "randommod:raw_tin"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
     "###"
   ],
   "result": {
-    "item": "randommod:tin_block"
+    "item": "randommod:raw_tin_block"
   }
 }

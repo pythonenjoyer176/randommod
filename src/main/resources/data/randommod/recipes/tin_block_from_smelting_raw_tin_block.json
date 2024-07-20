@@ -5,7 +5,7 @@
   "experience": 1.0,
   "group": "tin",
   "ingredient": {
-    "item": "randommod:raw_tin"
+    "item": "randommod:raw_tin_block"
   },
-  "result": "randommod:tin_ingot"
+  "result": "randommod:tin_block"
 }

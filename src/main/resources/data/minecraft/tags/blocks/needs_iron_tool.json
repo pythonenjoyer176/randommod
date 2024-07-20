@@ -1,5 +1,7 @@
 {
   "values": [
-    
+    "randommod:tin_ore",
+    "randommod:tin_block",
+    "randommod:raw_tin_block"
   ]
 }

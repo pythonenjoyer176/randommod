@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "randommod:tin_block"
+      "item": "randommod:raw_tin_block"
     }
   ],
   "result": {
     "count": 9,
-    "item": "randommod:tin_ingot"
+    "item": "randommod:raw_tin"
   }
 }
