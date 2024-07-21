@@ -19,10 +19,12 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.TIN_INGOT.get());
                         output.accept(ModItems.RAW_TIN.get());
+                        output.accept(ModItems.HIGH_CARBON_COAL.get());
 
                         output.accept(ModBlocks.TIN_BLOCK.get());
                         output.accept(ModBlocks.TIN_ORE.get());
                         output.accept(ModBlocks.RAW_TIN_BLOCK.get());
+                        output.accept(ModBlocks.HIGH_CARBON_COAL_ORE.get());
                     })
                     .build());
 
