@@ -8,5 +8,11 @@
   "block.randommod.tin_ore": "Tin Ore",
   "block.randommod.high_carbon_coal_ore": "High Carbon Coal Ore",
 
+  "item.randommod.katana": "Katana",
+  "item.randommod.steel_pickaxe": "Steel Pickaxe",
+  "item.randommod.steel_axe": "Steel Axe",
+  "item.randommod.steel_shovel": "Steel Shovel",
+  "item.randommod.steel_hoe": "Steel Hoe",
+
   "creativetab.random_tab": "RandomMod Tab"
 }

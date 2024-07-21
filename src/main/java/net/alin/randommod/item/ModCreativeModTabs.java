@@ -25,6 +25,12 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.TIN_ORE.get());
                         output.accept(ModBlocks.RAW_TIN_BLOCK.get());
                         output.accept(ModBlocks.HIGH_CARBON_COAL_ORE.get());
+
+                        output.accept(ModItems.STEEL_PICKAXE.get());
+                        output.accept(ModItems.STEEL_SHOVEL.get());
+                        output.accept(ModItems.KATANA.get());
+                        output.accept(ModItems.STEEL_AXE.get());
+                        output.accept(ModItems.STEEL_HOE.get());
                     })
                     .build());
 
