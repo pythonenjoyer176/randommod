@@ -28,9 +28,6 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 5)));
 
-    public static final RegistryObject<Block> RAW_TIN_BLOCK = registerBlock("raw_tin_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
-
     public static final RegistryObject<Block> HIGH_CARBON_COAL_ORE = registerBlock("high_carbon_coal_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(3.2f).requiresCorrectToolForDrops(), UniformInt.of(0, 3)));

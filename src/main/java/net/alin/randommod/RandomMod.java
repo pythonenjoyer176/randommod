@@ -53,7 +53,6 @@ public class RandomMod {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.TIN_BLOCK);
             event.accept(ModBlocks.TIN_ORE);
-            event.accept(ModBlocks.RAW_TIN_BLOCK);
         }
 
     }
