@@ -23,6 +23,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.TIN_BLOCK.get(),
+                    ModBlocks.STEEL_BLOCK.get(),
                     ModBlocks.TIN_ORE.get(),
                     ModBlocks.HIGH_CARBON_COAL_ORE.get());
 
@@ -35,5 +36,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.HIGH_CARBON_COAL_ORE.get()).addTag(Tags.Blocks.ORES);
+
+        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.STEEL_BLOCK.get());
     }
 }

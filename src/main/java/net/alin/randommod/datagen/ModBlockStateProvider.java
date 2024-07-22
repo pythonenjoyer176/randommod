@@ -16,6 +16,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.TIN_BLOCK);
+        blockWithItem(ModBlocks.STEEL_BLOCK);
         blockWithItem(ModBlocks.TIN_ORE);
 
         blockWithItem(ModBlocks.HIGH_CARBON_COAL_ORE);

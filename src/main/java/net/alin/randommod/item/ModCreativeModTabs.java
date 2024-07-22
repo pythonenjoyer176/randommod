@@ -18,10 +18,12 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.random_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.TIN_INGOT.get());
+                        output.accept(ModItems.STEEL_INGOT.get());
                         output.accept(ModItems.RAW_TIN.get());
                         output.accept(ModItems.HIGH_CARBON_COAL.get());
 
                         output.accept(ModBlocks.TIN_BLOCK.get());
+                        output.accept(ModBlocks.STEEL_BLOCK.get());
                         output.accept(ModBlocks.TIN_ORE.get());
                         output.accept(ModBlocks.HIGH_CARBON_COAL_ORE.get());
                     })

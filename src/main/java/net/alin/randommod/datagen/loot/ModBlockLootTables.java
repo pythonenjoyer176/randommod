@@ -27,6 +27,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         this.dropSelf(ModBlocks.TIN_BLOCK.get());
+        this.dropSelf(ModBlocks.STEEL_BLOCK.get());
 
         this.add(ModBlocks.TIN_ORE.get(),
                 block -> createOreDrop(ModBlocks.TIN_ORE.get(), ModItems.RAW_TIN.get()));

@@ -18,6 +18,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.TIN_INGOT);
+        simpleItem(ModItems.STEEL_INGOT);
         simpleItem(ModItems.HIGH_CARBON_COAL);
         simpleItem(ModItems.RAW_TIN);
     }

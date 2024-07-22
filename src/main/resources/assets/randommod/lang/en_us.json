@@ -1,9 +1,11 @@
 {
   "item.randommod.tin_ingot": "Tin Ingot",
+  "item.randommod.steel_ingot": "Steel Ingot",
   "item.randommod.raw_tin": "Raw Tin",
   "item.randommod.high_carbon_coal": "High Carbon Coal",
 
   "block.randommod.tin_block": "Tin Block",
+  "block.randommod.steel_block": "Steel Block",
   "block.randommod.tin_ore": "Tin Ore",
   "block.randommod.high_carbon_coal_ore": "High Carbon Coal Ore",
 
