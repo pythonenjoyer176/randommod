@@ -24,6 +24,12 @@ public class ModItems {
     public static final RegistryObject<Item> HIGH_CARBON_COAL = ITEMS.register("high_carbon_coal",
             () -> new FuelItem(new Item.Properties(), 2000));
 
+    public static final RegistryObject<Item> STEEL_PICKAXE = ITEMS.register("steel_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.STEEL, 1, 1.5f, new Item.Properties()));
+
+    public static final RegistryObject<Item> KATANA = ITEMS.register("katana",
+            () -> new SwordItem(ModToolTiers.STEEL, 6, -3, new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
