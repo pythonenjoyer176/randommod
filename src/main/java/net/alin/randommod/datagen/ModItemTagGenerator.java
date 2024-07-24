@@ -1,9 +1,11 @@
 package net.alin.randommod.datagen;
 
 import net.alin.randommod.RandomMod;
+import net.alin.randommod.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -17,6 +19,10 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.STEEL_HELMET.get(),
+                    ModItems.STEEL_CHESTPLATE.get(),
+                    ModItems.STEEL_LEGGINGS.get(),
+                    ModItems.STEEL_BOOTS.get());
     }
 }

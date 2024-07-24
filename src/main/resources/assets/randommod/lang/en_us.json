@@ -15,5 +15,10 @@
   "item.randommod.steel_shovel": "Steel Shovel",
   "item.randommod.steel_hoe": "Steel Hoe",
 
+  "item.randommod.steel_helmet": "Steel Helmet",
+  "item.randommod.steel_chestplate": "Steel Chestplate",
+  "item.randommod.steel_leggings": "Steel Leggings",
+  "item.randommod.steel_boots": "Steel Boots",
+
   "creativetab.random_tab": "RandomMod Tab"
 }
