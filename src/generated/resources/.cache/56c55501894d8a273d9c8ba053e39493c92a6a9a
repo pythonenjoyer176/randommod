@@ -1,0 +1,13 @@
+// 1.20.1	2024-07-22T17:21:47.2905064	Block States: randommod
+70cb7e98ed2cb7aef58961b4724e018b3aa2fc00 assets/randommod/blockstates/high_carbon_coal_ore.json
+ec66c47a212632d60237e49540fb15f8e7d28576 assets/randommod/blockstates/steel_block.json
+60b83acedb67142a16d694b6e0098b08c9f9ef34 assets/randommod/blockstates/tin_block.json
+064241180aa9d1996bd073e1f9dfa9febb72161f assets/randommod/blockstates/tin_ore.json
+b949791dcd4973710f6ccdc0a53fcac6fd1910c9 assets/randommod/models/block/high_carbon_coal_ore.json
+9ca60887a35d7251f54a83bcabd5f9ffb2c26b1d assets/randommod/models/block/steel_block.json
+de773f7d94c459bb9b18c48ab605b5b196684b17 assets/randommod/models/block/tin_block.json
+f967d02851dde786bfe9f6f4774fceebcaa7bc74 assets/randommod/models/block/tin_ore.json
+565cf0d192e2c84d270473e441239db2271cf8e0 assets/randommod/models/item/high_carbon_coal_ore.json
+952af7abf667cab793a4e5364cabc8079bdfc489 assets/randommod/models/item/steel_block.json
+d8952723870e77be5883c8871f8644669aee271f assets/randommod/models/item/tin_block.json
+fb4fbdb2181f9659044cb7d6b682fa729ff9a95b assets/randommod/models/item/tin_ore.json

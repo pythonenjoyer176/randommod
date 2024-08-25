@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "randommod:steel_ingot"
+    },
+    "@": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "## ",
+    "#@ ",
+    " @ "
+  ],
+  "result": {
+    "item": "randommod:steel_axe"
+  },
+  "show_notification": true
+}

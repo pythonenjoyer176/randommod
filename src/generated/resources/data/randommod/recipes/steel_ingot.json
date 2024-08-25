@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "randommod:steel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "randommod:steel_ingot"
+  }
+}

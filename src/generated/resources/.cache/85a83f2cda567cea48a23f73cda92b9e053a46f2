@@ -1,0 +1,5 @@
+// 1.20.1	2024-07-22T16:56:52.188607	Tags for minecraft:block mod id randommod
+07ba92f165fca093619a4a9d071c07a319b2fb79 data/minecraft/tags/blocks/mineable/pickaxe.json
+73093444f7d371ef9810395c07015ca8833724df data/minecraft/tags/blocks/needs_diamond_tool.json
+feb480925959cfa60c9bef6c039c08cd89fe0ffd data/minecraft/tags/blocks/needs_iron_tool.json
+90d2403876188a042c8de5c857c57ec28e9ba13f data/minecraft/tags/blocks/needs_stone_tool.json

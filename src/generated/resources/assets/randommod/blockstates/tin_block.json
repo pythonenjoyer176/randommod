@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "randommod:block/tin_block"
+    }
+  }
+}
